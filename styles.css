@@ -1,0 +1,32 @@
+body, html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #outer-box {
+    width: 50vw;
+    height: 50vh;
+    background-image: linear-gradient(to bottom right,rgba(124, 9, 255, 0.414), rgb(63, 46, 119));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2em solid black;
+  }
+  #inner-box {
+    width: 45vw;
+    height: 40vh;
+    container-type: inline-size;
+    background-image: linear-gradient(to bottom left, rgb(163, 72, 196), rgb(100, 32, 60));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2em solid black;
+    color: white;
+    text-align: center;
+    font-size: 1cqw;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  }
